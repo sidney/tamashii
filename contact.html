@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Tamashii Taiko Drummers</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; color: #333; }
+        header, footer { background: #111; color: #fff; padding: 1rem 5%; }
+        nav a { color: #fff; margin-right: 15px; text-decoration: none; font-weight: bold; }
+        main { padding: 2rem 5%; max-width: 1000px; margin: auto; }
+        img { max-width: 100%; height: auto; display: block; margin: 1rem 0; background: #eee; }
+        .button { display: inline-block; padding: 10px 20px; background: #d32f2f; color: #fff; text-decoration: none; border-radius: 5px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>TAMASHII TAIKO DRUMMERS</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="performances.html">Performances</a>
+        <a href="classes.html">Classes & Workshops</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <h1>Contact Us</h1>
+    <p>We would love to hear from you! Whether you are looking to book a performance, inquire about our beginner classes, or just want to say hello, please get in touch.</p>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-top: 2rem;">
+        
+        <div style="flex: 1; min-width: 250px;">
+            <h2>Get in Touch</h2>
+            <p><strong>Email:</strong> <a href="mailto:info@tamashii.nz">info@tamashii.nz</a></p>
+            <p><strong>Studio Address:</strong><br>
+            2B Malvern Road<br>
+            Onehunga<br>
+            Auckland 1061<br>
+            New Zealand</p>
+            
+            <h2>Follow Us</h2>
+            <p>Stay up to date with our latest performances and class intakes!</p>
+            <p>
+                <a href="https://www.facebook.com/TamashiiTaiko/" target="_blank">Facebook</a> | 
+                <a href="https://www.linkedin.com/company/tamashii-taiko-drummers" target="_blank">LinkedIn</a>
+            </p>
+        </div>
+
+        <div style="flex: 1; min-width: 300px; background: #f9f9f9; padding: 20px; border-radius: 8px;">
+            <h2>Send a Message</h2>
+            
+            <form action="#" style="display: flex; flex-direction: column; gap: 10px;">
+                <label for="name"><strong>Name:</strong></label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+                
+                <label for="email"><strong>Email:</strong></label>
+                <input type="email" id="email" name="email" placeholder="you@email.com" required style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+                
+                <label for="subject"><strong>Subject:</strong></label>
+                <select id="subject" name="subject" style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+                    <option value="hire">Hire Us / Performance Inquiry</option>
+                    <option value="class">Classes & Workshops</option>
+                    <option value="general">General Inquiry</option>
+                </select>
+
+                <label for="message"><strong>Message:</strong></label>
+                <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+                
+                <button type="submit" class="button" style="border: none; cursor: pointer; font-size: 16px;">Send Message</button>
+            </form>
+        </div>
+
+    </div>
+</main>
+
+<footer>
+    <p><strong>Contact:</strong> info@tamashii.nz | 2B Malvern Road, Onehunga, Auckland 1061</p>
+    <p>Registered Not-for-Profit Incorporated Society</p>
+    <p>&copy; 2026 Tamashii Taiko Drummers. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
